@@ -82,7 +82,7 @@ export function AppLayout({ children, onLog }: AppLayoutProps) {
             className="font-medium text-primary hover:text-primary/80 transition-colors"
           >
           NodePass
-        </a> 驱动
+        </a> 驱动 | 
         A demo by <a 
             href="https://github.com/HappyLeslieAlexander" 
             target="_blank" 
