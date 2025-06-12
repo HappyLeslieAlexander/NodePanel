@@ -83,6 +83,14 @@ export function AppLayout({ children, onLog }: AppLayoutProps) {
           >
           NodePass
         </a> 驱动
+        A demo by <a 
+            href="https://github.com/HappyLeslieAlexander" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="font-medium text-primary hover:text-primary/80 transition-colors"
+          >
+          Leslie Alexander
+        </a>
       </footer>
     </div>
   );
