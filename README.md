@@ -1,12 +1,18 @@
 # NodePanel 轻量化管理面板
 
-这是一个为 [NodePass (yosebyte/nodepass)](https://github.com/yosebyte/nodepass) 设计的前端管理面板。它提供了一个用户友好的界面来管理您的 NodePass 服务。
+这是一个由 [NodePass (yosebyte/nodepass)](https://github.com/yosebyte/nodepass) 强力驱动的前端管理面板，提供了一个用户友好的WebUI来管理您的 NodePass 服务。
 
-> ⚠️ 本项目为社区贡献的前端实现，代码质量不代表 NodePass 官方或核心开发者的实际水平。旨在抛砖引玉，欢迎更多开发者提交更优秀的作品，共同丰富 NodePass 的前端生态。
+![image](https://i.postimg.cc/WztYzCzL/2025-06-15-233405.png)
+
+## Demo
+
+1. [Deployed on OpenBSD](https://node-panel.lesliealexander.eu)
+2. [Deployed on Vercel](https://node-panel.vercel.app)
 
 ## 部署
 
 ### 部署到 Vercel
+<img src="https://cdn.jsdelivr.net/gh/HappyLeslieAlexander/OSS/Vercel.png" width="30" height="30" alt="Vercel">
 
 Vercel 是部署此前端面板的推荐方式之一。
 
@@ -20,6 +26,7 @@ Vercel 是部署此前端面板的推荐方式之一。
 部署完成后，你将获得一个 Vercel 域名 (例如 `xxx.vercel.app`)，前端面板将通过该域名访问。
 
 ### 部署到 Cloudflare Pages
+<img src="https://cdn.jsdelivr.net/gh/HappyLeslieAlexander/OSS/Cloudflare02.png" width="108.2" height="36.8" alt="Cloudflare">
 
 Cloudflare Pages 对 Next.js 应用提供了良好的支持，能够将其部署到 Cloudflare 的全球边缘网络，实现快速、稳定的访问体验。
 
@@ -40,14 +47,16 @@ Cloudflare Pages 对 Next.js 应用提供了良好的支持，能够将其部署
    * **构建命令**：`npx @cloudflare/next-on-pages@1`；
    * **构建输出目录**：`.vercel/output/static`。
 8. 点击 **Save and Deploy** 开始部署。
-9. 如构建失败，请前往「设置 → 运行时 → 兼容性标志」，输入 `nodejs_compat` 并保存，然后重新部署。
+9. 如构建失败，请前往「设置 → 运行时 → 兼容性标志」，输入并选择 `nodejs_compat` 保存，然后**重新部署** 。
 
 部署完成后，Cloudflare Pages 将为你的项目分配一个 `*.pages.dev` 域名，例如：`your-project.pages.dev`。你可以通过此域名访问你的前端页面。
 
 ## 📄 许可证
 
-该项目使用 [MIT](LICENSE) 许可证。
+该项目基于 [MIT](LICENSE) 许可证发布。
 
 ## 🙏 致谢
 
-*   [yosebyte/nodepass](https://github.com/yosebyte/nodepass) - 强大的后端服务。
+*   [Yosebyte](https://github.com/yosebyte/) - [NodePass(yosebyte/nodepass)](https://github.com/yosebyte/nodepass) 核心创始人。
+
+##### > ⚠️ 本项目为社区贡献的前端实现，旨在抛砖引玉，代码质量不代表 NodePass 官方或核心开发者的实际水平。欢迎更多开发者提交更优秀的作品，共同丰富 NodePass 的前端生态！
